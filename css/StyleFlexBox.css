@@ -115,9 +115,7 @@ article.FLEX>div>h2 {
 
 aside.CUARTAPARTE {
     background-color: blanchedalmond;
-    color: black;
-    border-top: black 1px solid;
-    font-size: 2em;
+    color: black;   
 }
 
 aside>div>div:first-child {
