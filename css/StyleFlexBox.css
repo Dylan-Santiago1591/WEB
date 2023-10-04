@@ -158,7 +158,6 @@ div>header>h1 {
 
 .FLEX-LISTA>div:first-child {
     width: 50%;
-    border-right: black 1px solid;
 }
 
 .FLEX-LISTA>div:last-child {
@@ -169,6 +168,7 @@ div>header>h1 {
 
 .FLEX-LISTA>div>aside {
     display: flex;
+    border: black 1px solid;
 }
 
 

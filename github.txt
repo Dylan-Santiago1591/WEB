@@ -23,3 +23,12 @@ git branch -M main
 git push -u origin main
 
 
+/// CADA VEZ QUE QUEIRA ACTUALIZAR SU PROYECTO
+
+git status //es para revisar si tiene alguna modificacion
+
+git add * //agregar los archivos a sala de espera
+
+git commit -m "NOMBRE QUE QUIERA"
+
+git push //para enviar 
