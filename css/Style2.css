@@ -1,0 +1,23 @@
+div.container ~ p + div.menu > spam#info{
+    color: black;
+}
+
+section#main-content > div >div + p ~ p.producto#info{
+    color: yellow;
+}
+
+div.content ~ div.sidebar + section > h1 + h3.info{
+    color: red;
+}
+
+form#registration-form > div.fieldset > input[type="text"]{
+    color: blue;
+}
+nav > div ~ section > div#product + div#team > h3.title + h4 + h5#tel{
+    color: yellow;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: ;
+}

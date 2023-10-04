@@ -1,0 +1,104 @@
+h1{
+    color: black;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+    
+}
+.Imagenes{
+    background-position: 50px;
+    position:fixed;
+}
+
+body{
+    background-color: rgb(242, 255, 255);
+    background-image: url(../png/PARAISO.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.NuevaClase{
+    color: rgb(226, 241, 8);
+}
+
+#FooterTabla, .NuevaClase{
+    text-shadow: 5px 5px 5px black; 
+}   
+
+.amarillo{
+    height: 100px;   
+    width: 100px;
+    background-color: rgb(255, 255, 2);
+    margin: 5px;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+    order: 1;
+
+}
+.azul{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 102, 255); 
+    margin: 5px;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+    order: 2;
+}
+.rojo{
+    height: 100px;  
+    width: 100px; 
+    background-color: rgb(255, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+    order: 3;
+
+}
+
+
+@media (max-width: 1000px){
+    .amarillo {
+        width: 50%;
+        background-color: rgb(255, 162, 0);
+        border-color: gold;
+        transition: all 2s ease;
+    }  
+
+}
+@media (max-width: 600px) {
+    .amarillo {
+        background-color: rgb(218, 255, 11);
+    }
+}
+
+.Padre{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
