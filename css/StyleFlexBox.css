@@ -112,6 +112,7 @@ article.FLEX>div>h2 {
 }
 
 /*FINALIZA EL SEGUNDO CUADRO   */
+/*FLEX.LISTA*/
 
 aside.CUARTAPARTE {
     background-color: blanchedalmond;
@@ -150,23 +151,25 @@ aside>div:last-child>div {
 }
 
 /*FINALIZA*/
-
-div>header>h1 {
+div.GENIOS > header , section {
+    background-color: blanchedalmond;
+}
+div.GENIOS > header > h1 {
     text-align: center;
     font-size: 2em;
 }
 
-.FLEX-LISTA>div:first-child {
+.FLEX-LISTA > div:first-child {
+    /*TEXTO DE LOS GENIOS*/
     width: 50%;
 }
 
-.FLEX-LISTA>div:last-child {
-    background-color: rgb(228, 205, 255);
-    width: 50%;
+.FLEX-LISTA > div:last-child {
+    /*IMAGEN INNOVADORES*/
 }
 
 
-.FLEX-LISTA>div>aside {
+.FLEX-LISTA> div > aside {
     display: flex;
     border: black 1px solid;
 }
@@ -178,8 +181,8 @@ div>header>h1 {
 /*INICIO INTOCABLES*/
 .SIXPART {
     display: flex;
-    background-color: azure;
-    height: 500px;
+    background-color: blanchedalmond;
+    /*height: 500px;*/
 }
 
 .SIXPART>article>div>h1 {
@@ -192,8 +195,9 @@ cuadrado {
     padding: 0px 20%;
 }
 
-cuadrado>img {
+cuadro > img{
     padding: 10px;
+    width: 200px;
 }
 
 cuadrado>p {
@@ -213,6 +217,7 @@ article>botones {
     margin: 10px;
 
 }
+
 
 /*FINALIZACION
 
